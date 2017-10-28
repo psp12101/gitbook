@@ -3,4 +3,4 @@
 #### IP
 
 > 120.26.228.62 (外网 ip)
-  root  Hangtian123!@#
+  root  
