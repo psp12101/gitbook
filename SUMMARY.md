@@ -9,3 +9,6 @@
 	* [userAndPassword](userAndPassword/aliyun.md)
 
 * [webgl](webgl/README.md)
+
+* [blender](blender/README.md)
+	* [blender 快捷键](blender/shortCut.md)
