@@ -24,3 +24,5 @@ _site
 dist
 build
 archive
+_book
+userAndPassword
