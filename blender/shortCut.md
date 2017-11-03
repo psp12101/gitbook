@@ -45,6 +45,18 @@
 	R 旋转
 
 ```
+### 调整绝对尺寸
+
+```
+  比如要把一个 2*2*2 的立方体的绝对尺寸缩小到 1*1*1
+  直接调整dimension 或者 scale 是没有什么用的  
+  N 调出调整尺寸dimension 的界面
+  
+  1. Object Mode ，选择你要修改的物体
+  2. 按 N 调出调整尺寸dimension 的界面，调整 dimension 到 1 * 1 * 1 ， 这时候 scale 是 0.5 0.5 0.5 
+  3. ctrl + a
+  4. 选择 scale ，这个时候 dimension 到 1 * 1 * 1 ， 这时候 scale 是 1 1 1， 绝对尺寸调整完成了
+```
 
 ### modifier 扳手
 
