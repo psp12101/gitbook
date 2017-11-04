@@ -196,7 +196,7 @@
     
 ```
 
-## UV 展开
+## UV 贴图展开
 
 ```
 	切换到 edit mode => 边框选择模式
@@ -212,3 +212,18 @@
 	隐藏显示右侧菜单  N
 
 ```
+
+## 材质
+
+```
+
+	noise texture  
+		diffuse BSDF
+		glossy BSDF
+		emission
+			mix shader
+				material Output 
+
+```
+
+
