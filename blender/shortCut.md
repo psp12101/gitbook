@@ -5,6 +5,7 @@
 
 ```
  tab 
+ shift + D 复制 => M 移动到另一个图层
 
 ```
 
@@ -76,8 +77,14 @@
 ## edit mode 编辑模式 
 
 ```
- tab 
- 
+ 	Tab 
+ 	Ctrl + R  添加控制线  => 滚轮 => 添加多条控制线 => 右键确保的初始位置
+ 	G (双击控制线) => (E, F) 选择控制线移动方式
+ 	O => s (放缩) => shift + z( z 轴保持不变) 
+ 	编辑模式 => A => W => Remove doubles 去除重复的点
+ 	Shift + E => 拉升边界，由圆角变锐角
+ 	对齐两个不齐的点（比如在 Z 轴方向对齐）
+ 		选择两个不齐的点 => E => Z => B (选择一条对齐的线) => S (放缩) => Z => 0(数值0)
 ```
 
 ### 顶点选择模式 vertice 
@@ -86,6 +93,9 @@
 	alt + 点选两点之间选择圆环线
     shift + 点多次，选多个点
     alt + shift 可以选多个圆环线
+    alt + M 合并两个点到一个点
+    k 添加线 => c 线的对齐方法 => enter 确定
+
 ```
 
 ### 边选择模式 edge
@@ -146,8 +156,8 @@
 ### 复制
 
 ```
-	shift + d   
-		复制后按 p => by selection  变成一个可选择的独立物体
+	shift + d   => M 移动到另一个图层
+		复制后按 p => by selection  变成一个可选择的独立物体   
 
 	如果重合在一起，
 	选择一个重在一起的点，再 ctrl + L 就可以选择出重在一起的复制对像
@@ -224,6 +234,20 @@
 			mix shader
 				material Output 
 
+
+	matcap 材质显示方法
+		N => shading => matcap
 ```
 
+# 合并，交集，相减
+
+```
+
+	Add modifier => Boolean 
+
+	动态查看两个模型人boolean 操作，一个 soid , 另一个 线框显示
+	display => maxium display type => type
+
+
+```
 
