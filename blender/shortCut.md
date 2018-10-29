@@ -1,6 +1,12 @@
 
 # blender 快捷键
 
+## 切换到鼠标左键选择物体
+
+```
+file => user Preferences => input => select with: left
+
+```
 ## 配置数字键盘和鼠标滚轮
 
 ```
