@@ -1,6 +1,14 @@
 
 # blender 快捷键
 
+## 配置数字键盘和鼠标滚轮
+
+```
+file => user Preferences => input => emulate numberpad 
+file => user Preferences => input => emulate 3 button mouse
+
+```
+
 ## object mode 3d 模式
 
 ```
