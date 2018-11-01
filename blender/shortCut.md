@@ -97,6 +97,7 @@ file => user Preferences => input => emulate 3 button mouse
  	O => s (放缩) => shift + z( z 轴保持不变) 
  	编辑模式 => A => W => Remove doubles 去除重复的点
  	Shift + E => 拉升边界，由圆角变锐角
+	i 多边形面内插控制线
  	对齐两个不齐的点（比如在 Z 轴方向对齐）
  		选择两个不齐的点 => E => Z => B (选择一条对齐的线) => S (放缩) => Z => 0(数值0)
 ```
