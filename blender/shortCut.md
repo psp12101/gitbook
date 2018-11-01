@@ -93,7 +93,7 @@ file => user Preferences => input => emulate 3 button mouse
 ```
  	Tab 
  	Ctrl + R  添加控制线  => 滚轮 => 添加多条控制线 => 右键确保的初始位置
- 	G (双击控制线) => (E, F) 选择控制线移动方式
+ 	Alt + 点击 => 选择控制线 => 双击 G => (E, F) 选择控制线移动方式
  	O => s (放缩) => shift + z( z 轴保持不变) 
  	编辑模式 => A => W => Remove doubles 去除重复的点
  	Shift + E => 拉升边界，由圆角变锐角
