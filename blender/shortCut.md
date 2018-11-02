@@ -230,7 +230,7 @@ file => user Preferences => input => emulate 3 button mouse
 	切换到 edit mode => 边框选择模式
 	shift 选择多条边 
 	ctrl + e => mark seam
-	U => unwrap 展开
+	a(选中所有顶点) => U => unwrap 展开
 ```
 
 ## 隐藏左右侧菜单
