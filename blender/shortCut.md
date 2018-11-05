@@ -11,7 +11,6 @@ file => user Preferences => input => select with: left
 
 ```
 file => user Preferences => input => emulate numberpad 
-file => user Preferences => input => emulate 3 button mouse
 
 ```
 
@@ -101,7 +100,7 @@ file => user Preferences => input => emulate 3 button mouse
  	对齐两个不齐的点（比如在 Z 轴方向对齐）
  		选择两个不齐的点 => E => Z => B (选择一条对齐的线) => S (放缩) => Z => 0(数值0)
 	创建一个面： 选择4个顶点 => f
-	
+	删除重叠的顶点： a => w => Remove Doubles
 ```
 
 ### 顶点选择模式 vertice 
@@ -277,4 +276,10 @@ file => user Preferences => input => emulate 3 button mouse
 
 ```
 按 shift 并点选多个图层，多个图层里的物体就会同时显示出来 
+```
+
+# 动画
+```
+ i 添加关键帧数据点
+ 
 ```
