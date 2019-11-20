@@ -283,3 +283,45 @@ file => user Preferences => input => emulate numberpad
  i 添加关键帧数据点
  
 ```
+
+# 绘制贴图
+[参考地址](https://www.youtube.com/watch?v=LcCQKuWPhXk)
+
+### 创建模型
+
+	shift + a 创建一个立方体
+	切换到 cycles render 渲染引擎
+
+### 展开 UV 贴图
+
+    tab 切换到 edit mode
+    shift 选择要切开的边
+    ctrl + e => mark seam
+    然后 按 a 全选 => u => smart uv project
+
+### 导出 UV layout
+
+	拉出一个视口 => 切换到 UV/Image Editor
+	在前一个 edit mode 视口 => a 全选所有顶点
+	在当前UV/Image Editor视口下方菜单栏 => UVs => Export UV Layout => uv.png
+
+### 创建手绘目标图片
+	
+	在当前UV/Image Editor视口下方菜单栏 => Image => New Image 
+	创建一张新的手绘图片 => paintImage
+
+### 创建立方体材质 paintTexture
+
+	再拉出一个新视口 => 切换到 Node Editor
+	在最右侧新建一个材质(不要用之前的材质) => 命名为 paintTexture
+	选中 use Nodes， 面板上出现 Diffuse BSDF(shader)
+
+### 将手绘图片(paintImage) 关联到 paintTexture
+
+	在 Node Editor 下方菜单栏
+	Add => Texture => Image Texture(color 连接上 Diffuse BSDF 的color)
+	Image Texture 下拉选择 paintImage;
+
+### 将 edit mode 视口 => 切换到 Texture paint 
+	左边出现绘制菜单栏, 如果没有出现, 按 T
+	就可以开始绘制了
