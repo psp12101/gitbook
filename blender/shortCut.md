@@ -325,3 +325,40 @@ file => user Preferences => input => emulate numberpad
 ### 将 edit mode 视口 => 切换到 Texture paint 
 	左边出现绘制菜单栏, 如果没有出现, 按 T
 	就可以开始绘制了
+	
+## 从高精度模型向低精度模型的法向贴图
+
+[参考视频](https://www.youtube.com/watch?v=0r-cGjVKvGw&t=29s)
+	
+### 建模型
+	
+	在图层1建一个立方体1(high poly)
+	在图层2也建一个立方体2(low poly)
+
+### 展开立方体2(low poly)的UV贴图
+
+	选中立方体2 => tab => 选择边 => mark seam => smart uv project
+
+### 组合两个模型的位置
+
+	shift 选中两个图层中的模型 => Alt + G
+	这样两个模型位置对齐了
+
+### 创建 normal 图片
+
+	选中立方体2(low poly)模型， 进入 UV/Image Editor视口下方菜单栏 => Image => New Image 
+	创建一个图片, 命名为 normal, 去掉alpha 通道
+
+### 创建材质
+	
+	将渲染引擎切换为cycles render,  选中立方体2(low poly)模型
+	新建一个材质, 并关联上 normal 图片
+
+### bake normal 贴图
+
+	找到 render tab 下的 bake 栏
+	Bake Type： noraml
+	space: tangent
+	选中 select to active => 先选中 立方体1(high poly) => 再选中 立方体2(low poly)
+	ray distance: 0.2(根据需要设置值)
+	点 bake 出 法向图 => 保存
