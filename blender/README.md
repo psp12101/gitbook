@@ -51,6 +51,8 @@ file => user Preferences => input => emulate numberpad
 	+ 放大场景
 	- 缩小场景
 	S 放缩  用 ctrl 控制精度
+	S => shift + x  只放缩 y, z 轴方向，不放缩 x 方向
+	S => x  只放缩 x 方向
 	G 平移  
 	G => x 沿 x 移动  
 	G => y 沿 y 移动
