@@ -19,6 +19,7 @@ file => user Preferences => input => emulate numberpad
 ```
  tab 
  shift + D 复制 => M 移动到另一个图层
+ shift 选择两个物体 => ctrl +j 合成一个物体
 
 ```
 
@@ -103,6 +104,9 @@ file => user Preferences => input => emulate numberpad
  		选择两个不齐的点 => E => Z => B (选择一条对齐的线) => S (放缩) => Z => 0(数值0)
 	创建一个面： 选择4个顶点 => f
 	删除重叠的顶点： a => w => Remove Doubles
+	
+ 	
+	
 ```
 
 ### 顶点选择模式 vertice 
