@@ -103,11 +103,15 @@ file => user Preferences => input => emulate numberpad
  	对齐两个不齐的点（比如在 Z 轴方向对齐）
  		选择两个不齐的点 => E => Z => B (选择一条对齐的线) => S (放缩) => Z => 0(数值0)
 	创建一个面： 选择4个顶点 => f
-	删除重叠的顶点： a => w => Remove Doubles
 	
- 	
+	删除重叠的顶点： a => w => Remove Doubles
+	shift 选择两个面 => w => bridge edge loops 桥接两个面
+	调整面的法向量 选择面 s => x(选择放缩的方向) => 0 角度 
+	隔一个选一个或者隔两个选一个，选择一个 面loop => 菜单栏 select => checker deselect
 	
 ```
+
+
 
 ### 顶点选择模式 vertice 
 
