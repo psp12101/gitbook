@@ -109,7 +109,11 @@ file => user Preferences => input => emulate numberpad
 	调整面的法向量 选择面 s => x(选择放缩的方向) => 0 角度 
 	隔一个选一个或者隔两个选一个，选择一个 面loop => 菜单栏 select => checker deselect
 	shift + ctrl + alt + c  => origin to 3d cursor 将物体的原点调整到世界坐标的原点; origin to geometry 将物体的原点设置在物体本身的原点上
+	选择一条控制线 alt + 边 => ctrl + b 拖动 => 生成 bevel
 ```
+
+
+
 
 
 
