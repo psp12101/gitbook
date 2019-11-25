@@ -111,12 +111,8 @@ file => user Preferences => input => emulate numberpad
 	shift + ctrl + alt + c  => origin to 3d cursor 将物体的原点调整到世界坐标的原点; origin to geometry 将物体的原点设置在物体本身的原点上
 	选择一条控制线 alt + 边 => ctrl + b 拖动 => 生成 bevel
 	ctrl + 选择相邻的面，点或者边
+	旋转阵列 => 编辑模式(选中要阵列的部分) => alt + r => 选中 Dupli 以及 step 设置步数
 ```
-
-
-
-
-
 
 ### 顶点选择模式 vertice 
 
@@ -154,7 +150,8 @@ file => user Preferences => input => emulate numberpad
     c  圆环选择区域 => 滚轮按下取消选择范围 => 滚轮滚动（控制选择范围大小）
 
 	切换可见不可见点的选择 limit selection to visible , 是否可以选中被挡住的点
-
+    ctrl + 右键 => 选择自定义选区
+    
 ```
 > 同样的可以 
 
@@ -291,6 +288,13 @@ file => user Preferences => input => emulate numberpad
 
 ```
 按 shift 并点选多个图层，多个图层里的物体就会同时显示出来 
+```
+
+# 阵列
+
+```
+ ctrl + a => empty => cube 新建一个空的立方体
+ 选择要阵列的物体 => Add Modifers => Array => Object Offset (选择empty cube) => 选中 empty cube 旋转一下
 ```
 
 # 动画
