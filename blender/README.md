@@ -291,10 +291,18 @@ file => user Preferences => input => emulate numberpad
 ```
 
 # 阵列
-
+[ 方法2参考视频](https://www.youtube.com/watch?v=TN52oH2WxjU&list=PLOs8m1ECfMkhhGXVMbcz5GIs52jlE1zV-&index=19)
 ```
+ 方法1：
  ctrl + a => empty => cube 新建一个空的立方体
  选择要阵列的物体 => Add Modifers => Array => Object Offset (选择empty cube) => 选中 empty cube 旋转一下
+ 
+ 方法2：
+ 先对一个物体进行阵列,比如一个立方体 Add Modifer => Array => Relative Offset:20 
+ 再建一个 shift + a => Curve => circle 
+ 选择 立方体阵列 => Add Modifer => curve => object => Beziercircle => 然后 s 放缩 
+ 
+ 
 ```
 
 # 动画
