@@ -114,7 +114,7 @@ file => user Preferences => input => emulate numberpad
 	旋转阵列 => 编辑模式(选中要阵列的部分) => alt + r => 选中 Dupli 以及 step 设置步数
 	去掉直线段多余的控制点 a => x => limited dissolve
 ```
-
+显示法向量和调整法向量方向：tab 进入 edit mode => N 进入数据面板 => mesh display => normals 选择点，线，面显示法向量 ； T => shading /UVS => normals => Flip direction 翻转法向量方向 
 
 ### 顶点选择模式 vertice 
 
