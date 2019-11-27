@@ -117,6 +117,7 @@ file => user Preferences => input => emulate numberpad
 	
 	shift + a => lattice => 右侧面板 切换到 lattice tab => lattice =>编辑 U V W的值, 用于调整lattice 的分格数 
 	选中要变开的物体 => Add Modifer => lattice => 选择上一步建立的lattice => 进入lattice edit mode , 拖动lattice 的顶点，就可以对lattice 控制的物体进行变形了
+	edit mode => 选择一条边 => ctrl + e => edge split => 移动一下面，这样就把边拆分开了
 ```
 
 
