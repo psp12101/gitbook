@@ -112,7 +112,9 @@ file => user Preferences => input => emulate numberpad
 	选择一条控制线 alt + 边 => ctrl + b 拖动 => 生成 bevel
 	ctrl + 选择相邻的面，点或者边
 	旋转阵列 => 编辑模式(选中要阵列的部分) => alt + r => 选中 Dupli 以及 step 设置步数
+	去掉直线段多余的控制点 a => x => limited dissolve
 ```
+
 
 ### 顶点选择模式 vertice 
 
