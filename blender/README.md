@@ -116,7 +116,7 @@ file => user Preferences => input => emulate numberpad
 	显示法向量和调整法向量方向：tab 进入 edit mode => N 进入数据面板 => mesh display => normals 选择点，线，面显示法向量 ； T => shading /UVS => normals => Flip direction 翻转法向量方向 
 	
 	shift + a => lattice => 右侧面板 切换到 lattice tab => lattice =>编辑 U V W的值, 用于调整lattice 的分格数 
-	Add Modifer => lattice => 选择上一步建立的lattice => 进入lattice edit mode , 拖动lattice 的顶点，就可以对lattice 控制的物体进行变形了
+	选中要变开的物体 => Add Modifer => lattice => 选择上一步建立的lattice => 进入lattice edit mode , 拖动lattice 的顶点，就可以对lattice 控制的物体进行变形了
 ```
 
 
