@@ -121,6 +121,7 @@ file => user Preferences => input => emulate numberpad
 	file => user preferrence => Mesh F2   edit mode => f 用于三个点生成四边形
 	选择一个物体 A 右侧 object Tab => Display => X-ray ;这样就可透过物体B看到物体A 了 
 	片填充：选择一个loop => space => grid fill 
+	edit mode => 选择一条边 ctrl + right click => 拉伸
 ```
 
 
