@@ -122,6 +122,7 @@ file => user Preferences => input => emulate numberpad
 	选择一个物体 A 右侧 object Tab => Display => X-ray ;这样就可透过物体B看到物体A 了 
 	片填充：选择一个loop => space => grid fill 
 	edit mode => 选择一条边 ctrl + right click => 拉伸
+	file => user preferrence => add On => add mesh + add curve 添加新的类型，单点，数学图形等
 ```
 
 
