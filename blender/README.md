@@ -90,6 +90,12 @@ file => user Preferences => input => emulate numberpad
 
 ----------
 
+## curve to mesh
+
+```
+	alt + c
+```
+
 ## edit mode 编辑模式 
 
 ```
