@@ -96,6 +96,12 @@ file => user Preferences => input => emulate numberpad
 	alt + c
 ```
 
+## 去除父子关系
+
+```
+	object => parent => clear parent  
+```
+
 ## edit mode 编辑模式 
 
 ```
