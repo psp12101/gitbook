@@ -414,3 +414,70 @@ file => user Preferences => input => emulate numberpad
 	选中 select to active => 先选中 立方体1(high poly) => 再选中 立方体2(low poly)
 	ray distance: 0.2(根据需要设置值)
 	点 bake 出 法向图 => 保存
+	
+## blender 导出 obj 
+
+### 渲染引擎设置
+
+```
+	只能使用 Blender Render, 才能导出 mtl材质; 使用Cycles Render 则不可以。
+
+```
+
+### 材质建立过程例子
+
+#### 立方体
+
+```
+	1. Ctrl + A => Mesh => Cube 
+	2. 右则选择 Material 面板 => New => 改名为 'cubeMaterial'
+	3. 切换到 Texture 面板 
+		3.1 New => 改名为 'diffuseTexture'(不改也可以)  => image => open => 选择一张 diffuseMap 图片 => Influence => diffuse => color
+		3.2 New => 改名为 'normalTexture'(不改也可以)  => image => open => 选择一张 normalMap 图片 => Influence => Geometry => normal
+		3.3 New => 改名为 'reflectionTexture'(不改也可以)  => image => open => 选择一张 reflectionMap 图片 => Influence => Specular => color
+
+```
+
+#### 球体
+
+```
+	1. Ctrl + A => Mesh => UV Sphere 
+	2. 右则选择 Material 面板 => New => 改名为 'sphereMaterial'
+	3. 切换到 Texture 面板 
+		3.1 New => 改名为 'diffuseTexture'(不改也可以)  => image => open => 选择一张 diffuseMap 图片 => Influence => diffuse => color
+		3.2 New => 改名为 'normalTexture'(不改也可以)  => image => open => 选择一张 normalMap 图片 => Influence => Geometry => normal
+		3.3 New => 改名为 'reflectionTexture'(不改也可以)  => image => open => 选择一张 reflectionMap 图片 => Influence => Specular => color
+
+```
+### mtl 中的值在 blender Material 面板中如何设置
+
+```
+	Ns(specular highlight, 取值 0 到 1000) => Material 面板 => Specular => Hardness
+	Ka(ambient color) => Material 面板 => Shading => Ambient
+	Kd(diffuse color) => Material 面板 => Diffuse => 颜色 + Intensity
+	Ks(specular color) => Material 面板 => Specular => 颜色 + Intensity
+	Ke => Material 面板 => Shading => Emit
+	Ni => Material 面板 => ??
+	d(alpha) => Material 面板 => Transparency => Alpha
+
+```
+
+### 导出选项
+
+```
+ 	file => export => wavefront(.obj)
+
+ 	选中项
+
+ 	-z Forward
+ 	Y Up
+ 	Write Normals
+ 	Include UVs
+ 	Write Materails
+ 	Triangulate Faces
+ 	Objects as OBJ Objects
+ 	Auto / Copy(复制到当前路径位置)
+
+```
+
+
