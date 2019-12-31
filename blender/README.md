@@ -150,7 +150,7 @@ file => user Preferences => input => emulate numberpad
 ### 顶点选择模式 vertice 
 
 ```
-	alt + 点选两点之间选择圆环线
+    alt + 点选两点之间选择圆环线
     shift + 点多次，选多个点
     滚轮按下 => 取消选择的点
     alt + shift 可以选多个圆环线
@@ -176,13 +176,13 @@ file => user Preferences => input => emulate numberpad
 ### 范围选择
 
 ```
-	b => 左建选择区域选中
+    b => 左建选择区域选中
     b => 鼠标滚轮取肖区域选中
     a 选择所有 或者取消选择所有
-	c  圆环选择区域 => 左键 => 滚轮滚动（控制选择范围大小）
+    c  圆环选择区域 => 左键 => 滚轮滚动（控制选择范围大小）
     c  圆环选择区域 => 滚轮按下取消选择范围 => 滚轮滚动（控制选择范围大小）
 
-	切换可见不可见点的选择 limit selection to visible , 是否可以选中被挡住的点
+    切换可见不可见点的选择 limit selection to visible , 是否可以选中被挡住的点
     ctrl + 右键 => 选择自定义选区
     
 ```
@@ -219,7 +219,7 @@ file => user Preferences => input => emulate numberpad
 
 ```
 	shift + d   => M 移动到另一个图层
-		复制后按 p => by selection  变成一个可选择的独立物体   
+	复制后按 p => by selection  变成一个可选择的独立物体   
 
 	如果重合在一起，
 	选择一个重在一起的点，再 ctrl + L 就可以选择出重在一起的复制对像
@@ -238,6 +238,21 @@ file => user Preferences => input => emulate numberpad
 
 ```
 	shift + z
+```
+
+### snap  
+
+```
+	shift + s => 
+		cursor to center
+		cursor to selected 
+		cursor to grid 
+		cursor to Active
+		
+		selection to grid
+		selection to cursor
+		selection to Active
+		selection to cursor(offset)
 ```
 
 ## 渲染引擎
