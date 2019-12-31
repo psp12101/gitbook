@@ -305,6 +305,7 @@ ctrl + tab => e 选择边
 	左侧 options => Live Unwrap 实时展开 
 	ctrl + p => 分开 pack（铺满）
 	reset => ctrl + p => 平均展开
+	https://www.youtube.com/watch?v=brnaAL-QwhU
 		
 ```
 
@@ -390,6 +391,7 @@ ctrl + tab => e 选择边
     ctrl + e => mark seam
     然后 按 a 全选 => u => smart uv project
     选择面 => p => pinning uv  ;   alt + p => unpinning uv
+    https://www.youtube.com/watch?v=brnaAL-QwhU
 
 ### 导出 UV layout
 
