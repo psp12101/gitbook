@@ -389,7 +389,7 @@ ctrl + tab => e 选择边
     shift 选择要切开的边
     ctrl + e => mark seam
     然后 按 a 全选 => u => smart uv project
-    选择面 => p => pinning uv 
+    选择面 => p => pinning uv  ;   alt + p => unpinning uv
 
 ### 导出 UV layout
 
