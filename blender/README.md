@@ -1,6 +1,14 @@
 
 # blender 快捷键
 
+## UI pie menu
+
+```
+file => user Preferences => Add-ons => Pie Menu: UI pie menu
+tab 键选择编辑模式
+Q 键选择视图
+```
+
 ## 切换到鼠标左键选择物体
 
 ```
