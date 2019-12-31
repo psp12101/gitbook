@@ -149,7 +149,13 @@ file => user Preferences => input => emulate numberpad
 	alt + b => clipping border
 ```
 
+### 选择模式 
 
+```
+ctrl + tab => v 选择顶点
+ctrl + tab => f 选择面
+ctrl + tab => e 选择边
+```
 
 ### 顶点选择模式 vertice 
 
@@ -223,6 +229,7 @@ file => user Preferences => input => emulate numberpad
 
 ```
 	shift + d   => M 移动到另一个图层
+	alt + d => linked copy
 	复制后按 p => by selection  变成一个可选择的独立物体   
 
 	如果重合在一起，
@@ -294,6 +301,11 @@ file => user Preferences => input => emulate numberpad
 	shift 选择多条边 
 	ctrl + e => mark seam
 	a(选中所有顶点) => U => unwrap 展开
+	选择边 => v => enter 缝合 
+	左侧 options => Live Unwrap 实时展开 
+	ctrl + p => 分开 pack（铺满）
+	reset => ctrl + p => 平均展开
+		
 ```
 
 ## 隐藏左右侧菜单
@@ -377,6 +389,7 @@ file => user Preferences => input => emulate numberpad
     shift 选择要切开的边
     ctrl + e => mark seam
     然后 按 a 全选 => u => smart uv project
+    选择面 => p => pinning uv 
 
 ### 导出 UV layout
 
