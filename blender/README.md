@@ -145,6 +145,8 @@ file => user Preferences => input => emulate numberpad
 	片填充：选择一个loop => space => grid fill 
 	edit mode => 选择一条边 ctrl + right click => 拉伸
 	file => user preferrence => add On => add mesh + add curve 添加新的类型，单点，数学图形等
+	
+	alt + b => clipping border
 ```
 
 
