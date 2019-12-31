@@ -26,7 +26,9 @@ file => user Preferences => input => emulate numberpad
 
 ```
  tab 
- shift + D 复制 => M 移动到另一个图层
+ shift + D 复制  
+ alt + d 复制（linked）
+ M 移动到另一个图层
  shift 选择两个物体 => ctrl +j 合成一个物体
 
 ```
