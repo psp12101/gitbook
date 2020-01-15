@@ -497,7 +497,8 @@ ctrl + tab => e 选择边
 	Ns(specular highlight, 取值 0 到 1000) => Material 面板 => Specular => Hardness  
 		"exponent" is the value for the specular exponent.  A high exponent 
 		results in a tight, concentrated highlight.  Ns values normally range 
-		from 0 to 1000.
+		from 0 to 1000. 在blender 里面 hardness 的取值在 1 ~ 512之间, 跟 Ns 的关系为 0.512 * Ns = hardness
+		
  
 	Ka(ambient color) => Material 面板 => Shading => Ambient
 	Kd(diffuse color) => Material 面板 => Diffuse => 颜色 + Intensity
