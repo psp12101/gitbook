@@ -494,7 +494,11 @@ ctrl + tab => e 选择边
 ### mtl 中的值在 blender Material 面板中如何设置
 
 ```
-	Ns(specular highlight, 取值 0 到 1000) => Material 面板 => Specular => Hardness
+	Ns(specular highlight, 取值 0 到 1000) => Material 面板 => Specular => Hardness  
+		"exponent" is the value for the specular exponent.  A high exponent 
+		results in a tight, concentrated highlight.  Ns values normally range 
+		from 0 to 1000.
+ 
 	Ka(ambient color) => Material 面板 => Shading => Ambient
 	Kd(diffuse color) => Material 面板 => Diffuse => 颜色 + Intensity
 	Ks(specular color) => Material 面板 => Specular => 颜色 + Intensity
