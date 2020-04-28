@@ -527,4 +527,11 @@ ctrl + tab => e 选择边
 
 ```
 
+### 模型 unlink 和重新确定中心位置
+
+```
+unlink: object => Relations => Make single user => Object & data
+origin: object => set origin => Origin to Geometry
+
+```
 
