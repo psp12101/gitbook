@@ -535,3 +535,13 @@ origin: object => set origin => Origin to Geometry
 
 ```
 
+### blender 2.8 阴影贴图
+
+```
+   0. 选择 cycles render (右则 scene => Render Engine)
+   1. 创建一个平面做为地面
+   2. 创建一个立方体
+   3. 给平面一个贴图 (展开贴图=> 新建材质 => use node => 添加 base color => image1)
+   4. 调整光源，将源放置在合理的位置
+   5. 将阴影bake 到 平面(rendering => 右侧的scene => Bake => Bake Type => shadow => 点击 bake)
+```
