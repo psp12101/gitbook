@@ -545,3 +545,10 @@ origin: object => set origin => Origin to Geometry
    4. 调整光源，将源放置在合理的位置
    5. 将阴影bake 到 平面(rendering => 右侧的scene => Bake => Bake Type => shadow => 点击 bake)
 ```
+
+### blender 2.8 Eevee 透明材质
+
+```
+   1. material properties  => settings => Blend Mode:Alpha Clip; Clip Threshold 0.5 
+   2. 顶部选择 shading => 右侧Scene Collection 选择物体 进入 Nodes 编辑页面
+```
