@@ -552,3 +552,9 @@ origin: object => set origin => Origin to Geometry
    1. material properties  => settings => Blend Mode:Alpha Clip; Clip Threshold 0.5 
    2. 顶部选择 shading => 右侧Scene Collection 选择物体 进入 Nodes 编辑页面
 ```
+
+### blender 2.8 增加可视范围 clipping end distance
+
+    3D view > properties region (N) > View > Clip
+    
+![参考图片](https://i.stack.imgur.com/CoLGK.png)
