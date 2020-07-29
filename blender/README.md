@@ -571,3 +571,6 @@ origin: object => set origin => Origin to Geometry
     2. 选择 edge 模式： ctrl + 鼠标右键 => 添加边连成四边形面
     3. 选择两个夹边的交点 => f => 生成面
 
+### blender 2.8  in front 永远显示在上面
+
+   右侧边栏 object properties(带边框的正方形) => viewport display => in Front 选中
