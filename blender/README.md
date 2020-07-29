@@ -564,3 +564,10 @@ origin: object => set origin => Origin to Geometry
     右侧边栏（edit mode) active tools and workspace setting (扳手和起子图标) => Options (Mirror 和 AutoMerge ) => 点选 AutoMerge 
     
     半透明效果：alt + z
+    
+### blender 2.8 F2 add on
+
+    1. 选择 vertex 模式： ctrl + 鼠标右键 => 添加点连成折线
+    2. 选择 edge 模式： ctrl + 鼠标右键 => 添加边连成四边形面
+    3. 选择两个夹边的交点 => f => 生成面
+
