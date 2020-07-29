@@ -558,3 +558,7 @@ origin: object => set origin => Origin to Geometry
     3D view > properties region (N) > View > Clip
     
 ![参考图片](https://i.stack.imgur.com/CoLGK.png)
+
+### blender 2.8 自动合并点
+
+    右侧边栏（edit mode) active tools and workspace setting (扳手和起子图标) => Options (Mirror 和 AutoMerge ) => 点选 AutoMerge 
