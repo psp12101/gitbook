@@ -574,3 +574,6 @@ origin: object => set origin => Origin to Geometry
 ### blender 2.8  in front 永远显示在上面
 
    右侧边栏 object properties(带边框的正方形) => viewport display => in Front 选中
+   
+### blender 2.8 vertex edge face 切换快捷键  1  2 3 
+
