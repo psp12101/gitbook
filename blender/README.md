@@ -577,3 +577,4 @@ origin: object => set origin => Origin to Geometry
    
 ### blender 2.8 vertex edge face 切换快捷键  1  2 3 
 
+### blender 2.8 flat  shadding smooth shadding   => edit mode => mesh =>shading => 
