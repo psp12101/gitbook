@@ -578,3 +578,9 @@ origin: object => set origin => Origin to Geometry
 ### blender 2.8 vertex edge face 切换快捷键  1  2 3 
 
 ### blender 2.8 flat  shadding smooth shadding   => edit mode => mesh =>shading => 
+
+### blender 2.8 将其他的点对齐到某一点
+https://blender.stackexchange.com/questions/80530/how-to-align-all-vertices-so-that-they-would-be-lying-on-one-plane
+
+If you want to make it flat horizontally set the 3D cursor as a pivot point, select the vertex which is lying on a grid floor and snap the cursor to it (Shift+S-->Cursor to Selected) .Then select the non aligned one and press S,Z,0.
+
