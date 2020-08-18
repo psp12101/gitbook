@@ -590,3 +590,8 @@ https://blenderartists.org/t/offset-edges/584283/254?u=peetie
 
 ctr + E => offset edges => offset 
 
+### edge 均匀分布处理  Loop Tools add on
+
+edit mode => edge => 选择多个边 => 右侧 edit tab => LoopTools => space
+
+
