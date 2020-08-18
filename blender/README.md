@@ -584,3 +584,9 @@ https://blender.stackexchange.com/questions/80530/how-to-align-all-vertices-so-t
 
 If you want to make it flat horizontally set the 3D cursor as a pivot point, select the vertex which is lying on a grid floor and snap the cursor to it (Shift+S-->Cursor to Selected) .Then select the non aligned one and press S,Z,0.
 
+### blender 2.8 offset-edges-addon  
+https://blender-addons.org/offset-edges-addon/ 
+https://blenderartists.org/t/offset-edges/584283/254?u=peetie
+
+ctr + E => offset edges => offset 
+
