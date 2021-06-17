@@ -594,4 +594,4 @@ ctr + E => offset edges => offset
 
 edit mode => edge => 选择多个边 => 右侧 edit tab => LoopTools => space
 
-
+## 关联多个物体到某个物体的 modifier => command + L
