@@ -595,3 +595,11 @@ ctr + E => offset edges => offset
 edit mode => edge => 选择多个边 => 右侧 edit tab => LoopTools => space
 
 ## 关联多个物体到某个物体的 modifier => command + L
+
+## blender 生成中文文字模型
+```
+1. 打开 scripting => 创建一个新的文本文件 => 输入或者复制进去一段文字
+2. edit 菜单栏 => text to 3d object =>  one object 或者 one object per line
+3. 到右侧文字设计面板 => font 设置 regular, bold, italic 中文字体
+4. mac 的字体文件放在 /Library/Fonts/ 路径下面, 太多找不到的话，可以使用搜索功能
+```
